@@ -48,6 +48,10 @@
 		F3E3BD3E2592F1D80089B7C2 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD3D2592F1D80089B7C2 /* FindViewController.m */; };
 		F3E3BD442592F24F0089B7C2 /* FindSonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD432592F24F0089B7C2 /* FindSonViewController.m */; };
 		F3E3BD4A2592F2950089B7C2 /* FindSonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD492592F2950089B7C2 /* FindSonTableViewCell.m */; };
+		F3E3BD5D2592FD090089B7C2 /* DTLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD5C2592FD090089B7C2 /* DTLoginManager.m */; };
+		F3E3BD732592FE7F0089B7C2 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD722592FE7F0089B7C2 /* LoginModel.m */; };
+		F3E3BD7A25939E310089B7C2 /* BaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD7925939E310089B7C2 /* BaseManager.m */; };
+		F3E3BD8025939F250089B7C2 /* FindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD7F25939F250089B7C2 /* FindModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +136,14 @@
 		F3E3BD432592F24F0089B7C2 /* FindSonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindSonViewController.m; sourceTree = "<group>"; };
 		F3E3BD482592F2950089B7C2 /* FindSonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindSonTableViewCell.h; sourceTree = "<group>"; };
 		F3E3BD492592F2950089B7C2 /* FindSonTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindSonTableViewCell.m; sourceTree = "<group>"; };
+		F3E3BD5B2592FD090089B7C2 /* DTLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTLoginManager.h; sourceTree = "<group>"; };
+		F3E3BD5C2592FD090089B7C2 /* DTLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTLoginManager.m; sourceTree = "<group>"; };
+		F3E3BD712592FE7F0089B7C2 /* LoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		F3E3BD722592FE7F0089B7C2 /* LoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		F3E3BD7825939E310089B7C2 /* BaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseManager.h; sourceTree = "<group>"; };
+		F3E3BD7925939E310089B7C2 /* BaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseManager.m; sourceTree = "<group>"; };
+		F3E3BD7E25939F250089B7C2 /* FindModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindModel.h; sourceTree = "<group>"; };
+		F3E3BD7F25939F250089B7C2 /* FindModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindModel.m; sourceTree = "<group>"; };
 		FE53B18050FFB1692A51E1D6 /* Pods-detectiveTangTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-detectiveTangTest.release.xcconfig"; path = "Target Support Files/Pods-detectiveTangTest/Pods-detectiveTangTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,6 +215,8 @@
 		F3E3BC7F2592DAC50089B7C2 /* detectiveTangTest */ = {
 			isa = PBXGroup;
 			children = (
+				F3E3BD572592FBF30089B7C2 /* Base */,
+				F3E3BD562592FBE10089B7C2 /* HTTP */,
 				F3E3BCC22592DF1E0089B7C2 /* Main */,
 				F3E3BCC32592DF2C0089B7C2 /* Util */,
 				F3E3BCC02592DEF60089B7C2 /* Classes */,
@@ -285,8 +299,6 @@
 		F3E3BCC32592DF2C0089B7C2 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				F3E3BD0F2592E41F0089B7C2 /* Crime.h */,
-				F3E3BD102592E41F0089B7C2 /* Crime.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -294,10 +306,9 @@
 		F3E3BCC42592DFA60089B7C2 /* LoginAndRegister */ = {
 			isa = PBXGroup;
 			children = (
+				F3E3BD642592FE310089B7C2 /* Login */,
 				F3E3BCF42592E1F70089B7C2 /* RegisterViewController.h */,
 				F3E3BCF52592E1F70089B7C2 /* RegisterViewController.m */,
-				F3E3BCFD2592E2790089B7C2 /* LoginViewController.h */,
-				F3E3BCFE2592E2790089B7C2 /* LoginViewController.m */,
 				F3E3BD092592E2FD0089B7C2 /* ShowViewController.h */,
 				F3E3BD0A2592E2FD0089B7C2 /* ShowViewController.m */,
 			);
@@ -332,8 +343,73 @@
 				F3E3BD432592F24F0089B7C2 /* FindSonViewController.m */,
 				F3E3BD482592F2950089B7C2 /* FindSonTableViewCell.h */,
 				F3E3BD492592F2950089B7C2 /* FindSonTableViewCell.m */,
+				F3E3BD7E25939F250089B7C2 /* FindModel.h */,
+				F3E3BD7F25939F250089B7C2 /* FindModel.m */,
 			);
 			path = AddDeleteChangeFind;
+			sourceTree = "<group>";
+		};
+		F3E3BD562592FBE10089B7C2 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BD592592FC100089B7C2 /* Manager */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		F3E3BD572592FBF30089B7C2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BD582592FBFE0089B7C2 /* Crime */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F3E3BD582592FBFE0089B7C2 /* Crime */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BD0F2592E41F0089B7C2 /* Crime.h */,
+				F3E3BD102592E41F0089B7C2 /* Crime.m */,
+			);
+			path = Crime;
+			sourceTree = "<group>";
+		};
+		F3E3BD592592FC100089B7C2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BD7725939DEE0089B7C2 /* QueryDeleteChangeAdd */,
+				F3E3BD5A2592FC800089B7C2 /* LoginAndRegister */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F3E3BD5A2592FC800089B7C2 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BD5B2592FD090089B7C2 /* DTLoginManager.h */,
+				F3E3BD5C2592FD090089B7C2 /* DTLoginManager.m */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		F3E3BD642592FE310089B7C2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BCFD2592E2790089B7C2 /* LoginViewController.h */,
+				F3E3BCFE2592E2790089B7C2 /* LoginViewController.m */,
+				F3E3BD712592FE7F0089B7C2 /* LoginModel.h */,
+				F3E3BD722592FE7F0089B7C2 /* LoginModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F3E3BD7725939DEE0089B7C2 /* QueryDeleteChangeAdd */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BD7825939E310089B7C2 /* BaseManager.h */,
+				F3E3BD7925939E310089B7C2 /* BaseManager.m */,
+			);
+			path = QueryDeleteChangeAdd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,16 +592,20 @@
 				F3E3BD1E2592ECC50089B7C2 /* AddViewController.m in Sources */,
 				F3E3BCFF2592E2790089B7C2 /* LoginViewController.m in Sources */,
 				F3E3BC822592DAC50089B7C2 /* AppDelegate.m in Sources */,
+				F3E3BD8025939F250089B7C2 /* FindModel.m in Sources */,
+				F3E3BD732592FE7F0089B7C2 /* LoginModel.m in Sources */,
 				F3E3BD322592EF8E0089B7C2 /* ChangeViewController.m in Sources */,
 				F3E3BD172592E7F90089B7C2 /* MainTableViewCell.m in Sources */,
 				F3E3BD052592E2C90089B7C2 /* MainViewController.m in Sources */,
 				F3E3BC932592DAC80089B7C2 /* main.m in Sources */,
 				F3E3BD112592E41F0089B7C2 /* Crime.m in Sources */,
 				F3E3BC852592DAC50089B7C2 /* SceneDelegate.m in Sources */,
+				F3E3BD7A25939E310089B7C2 /* BaseManager.m in Sources */,
 				F3E3BD3E2592F1D80089B7C2 /* FindViewController.m in Sources */,
 				F3E3BD0B2592E2FD0089B7C2 /* ShowViewController.m in Sources */,
 				F3E3BD4A2592F2950089B7C2 /* FindSonTableViewCell.m in Sources */,
 				F3E3BD292592EED20089B7C2 /* DeleteViewController.m in Sources */,
+				F3E3BD5D2592FD090089B7C2 /* DTLoginManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

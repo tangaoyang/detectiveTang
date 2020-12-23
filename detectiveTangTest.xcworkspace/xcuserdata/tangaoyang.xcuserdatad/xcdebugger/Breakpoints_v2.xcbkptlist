@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "01813C66-3CA2-443E-98C2-B4D9048C9F44"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BCA17BF-17A7-4085-B73B-85782B03CA66"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "detectiveTangTest/HTTP/Manager/QueryDeleteChangeAdd/BaseManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-deleteCrimeMessage:error:recordID:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89488D30-298C-4BEF-A4CE-B3B4435782B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "detectiveTangTest/Classes/AddDeleteChangeFind/DeleteViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-delete"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "89488D30-298C-4BEF-A4CE-B3B4435782B7 - edc7e6194b4ec4af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__30-[DeleteViewController delete]_block_invoke"
+                  moduleName = "detectiveTangTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/AddDeleteChangeFind/DeleteViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "89488D30-298C-4BEF-A4CE-B3B4435782B7 - 6ae4451fbc85a5a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__30-[DeleteViewController delete]_block_invoke_2"
+                  moduleName = "detectiveTangTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/AddDeleteChangeFind/DeleteViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "51">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

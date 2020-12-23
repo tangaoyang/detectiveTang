@@ -9,4 +9,9 @@ dependencies: \
   /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/AddDeleteChangeFind/ChangeSonViewController.h \
   /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/AddDeleteChangeFind/FindViewController.h \
   /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/Main/MainTableViewCell.h \
-  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Util/Crime.h
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Base/Crime/Crime.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/AddDeleteChangeFind/FindModel.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONModel.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONModelError.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONValueTransformer.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONKeyMapper.h

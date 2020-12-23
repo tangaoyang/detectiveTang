@@ -14,6 +14,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class Crime;
+@class FindModel;
 
 @interface MainViewController : UIViewController
 <
@@ -26,6 +27,7 @@ UITableViewDataSource
 
 @property UITableView *tableView;
 @property NSMutableArray *crimeArray;
+@property (nonatomic, strong) FindModel *myModel;
 
 @end
 

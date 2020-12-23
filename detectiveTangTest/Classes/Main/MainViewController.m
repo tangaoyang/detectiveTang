@@ -8,6 +8,7 @@
 #import "MainViewController.h"
 #import "MainTableViewCell.h"
 #import "Crime.h"
+#import "FindModel.h"
 
 @interface MainViewController ()
 
@@ -73,12 +74,12 @@
     [exitButton addTarget:self action:@selector(exit) forControlEvents:UIControlEventTouchDown];
     
     
-    self.crimeArray = [[NSMutableArray alloc] init];
-    Crime *crime1 = [[Crime alloc] init];
-    crime1.RecoreId = 1;
-    crime1.Relationship = @"friend";
-    crime1.City = @"beijing";
-    [_crimeArray addObject:crime1];
+//    self.crimeArray = [[NSMutableArray alloc] init];
+//    Crime *crime1 = [[Crime alloc] init];
+//    crime1.RecoreId = 1;
+//    crime1.Relationship = @"friend";
+//    crime1.City = @"beijing";
+//    [_crimeArray addObject:crime1];
     
     
 }

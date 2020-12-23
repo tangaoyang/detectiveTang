@@ -40,7 +40,7 @@
     
     self.view.backgroundColor = [UIColor blackColor];
     
-    [self performSelector:@selector(next) withObject:self afterDelay:5];
+    [self performSelector:@selector(next) withObject:self afterDelay:1];
 }
 
 - (void)next {

@@ -3,7 +3,7 @@ dependencies: \
   /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/Main/MainTableViewCell.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap \
-  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Util/Crime.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Base/Crime/Crime.h \
   /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/Masonry.h \
   /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/MASUtilities.h \
   /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/View+MASAdditions.h \
