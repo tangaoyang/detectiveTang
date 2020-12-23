@@ -1,0 +1,11 @@
+dependencies: \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Target\ Support\ Files/JSONModel/JSONModel-prefix.pch \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h

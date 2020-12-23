@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/Main/MainTableViewCell.m \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/Main/MainTableViewCell.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Util/Crime.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/Masonry.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/MASUtilities.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/View+MASAdditions.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/MASConstraintMaker.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/MASConstraint.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/MASViewAttribute.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/View+MASShorthandAdditions.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/ViewController+MASAdditions.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/NSArray+MASAdditions.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/NSArray+MASShorthandAdditions.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/MASCompositeConstraint.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/MASViewConstraint.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/MASLayoutConstraint.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/Masonry/NSLayoutConstraint+MASDebugAdditions.h

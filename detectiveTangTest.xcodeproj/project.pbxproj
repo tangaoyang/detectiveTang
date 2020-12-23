@@ -17,6 +17,37 @@
 		F3E3BC932592DAC80089B7C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BC922592DAC80089B7C2 /* main.m */; };
 		F3E3BC9D2592DAC90089B7C2 /* detectiveTangTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BC9C2592DAC90089B7C2 /* detectiveTangTestTests.m */; };
 		F3E3BCA82592DAC90089B7C2 /* detectiveTangTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BCA72592DAC90089B7C2 /* detectiveTangTestUITests.m */; };
+		F3E3BCD92592E0910089B7C2 /* 背景11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCC72592E08B0089B7C2 /* 背景11.jpg */; };
+		F3E3BCDA2592E0910089B7C2 /* 背景13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCC82592E08B0089B7C2 /* 背景13.jpg */; };
+		F3E3BCDB2592E0910089B7C2 /* 背景15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCC92592E08C0089B7C2 /* 背景15.jpg */; };
+		F3E3BCDC2592E0910089B7C2 /* 背景12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCCA2592E08C0089B7C2 /* 背景12.jpg */; };
+		F3E3BCDD2592E0910089B7C2 /* 背景7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCCB2592E08C0089B7C2 /* 背景7.jpg */; };
+		F3E3BCDE2592E0910089B7C2 /* 背景14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCCC2592E08D0089B7C2 /* 背景14.jpg */; };
+		F3E3BCDF2592E0910089B7C2 /* 背景10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCCD2592E08D0089B7C2 /* 背景10.jpg */; };
+		F3E3BCE02592E0910089B7C2 /* 姓名.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCCE2592E08E0089B7C2 /* 姓名.png */; };
+		F3E3BCE12592E0910089B7C2 /* 年龄.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCCF2592E08E0089B7C2 /* 年龄.png */; };
+		F3E3BCE22592E0910089B7C2 /* 竖线.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCD02592E08E0089B7C2 /* 竖线.png */; };
+		F3E3BCE32592E0910089B7C2 /* 背景8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCD12592E08F0089B7C2 /* 背景8.jpg */; };
+		F3E3BCE42592E0910089B7C2 /* 背景17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCD22592E08F0089B7C2 /* 背景17.jpg */; };
+		F3E3BCE52592E0910089B7C2 /* 背景16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCD32592E08F0089B7C2 /* 背景16.jpg */; };
+		F3E3BCE62592E0910089B7C2 /* zyy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCD42592E0900089B7C2 /* zyy.jpg */; };
+		F3E3BCE72592E0910089B7C2 /* 用户.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCD52592E0900089B7C2 /* 用户.png */; };
+		F3E3BCE82592E0910089B7C2 /* 密码.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCD62592E0900089B7C2 /* 密码.png */; };
+		F3E3BCE92592E0910089B7C2 /* 邮箱.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCD72592E0910089B7C2 /* 邮箱.png */; };
+		F3E3BCEA2592E0910089B7C2 /* 房子.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BCD82592E0910089B7C2 /* 房子.png */; };
+		F3E3BCF62592E1F70089B7C2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BCF52592E1F70089B7C2 /* RegisterViewController.m */; };
+		F3E3BCFF2592E2790089B7C2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BCFE2592E2790089B7C2 /* LoginViewController.m */; };
+		F3E3BD052592E2C90089B7C2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD042592E2C90089B7C2 /* MainViewController.m */; };
+		F3E3BD0B2592E2FD0089B7C2 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD0A2592E2FD0089B7C2 /* ShowViewController.m */; };
+		F3E3BD112592E41F0089B7C2 /* Crime.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD102592E41F0089B7C2 /* Crime.m */; };
+		F3E3BD172592E7F90089B7C2 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD162592E7F90089B7C2 /* MainTableViewCell.m */; };
+		F3E3BD1E2592ECC50089B7C2 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD1D2592ECC50089B7C2 /* AddViewController.m */; };
+		F3E3BD292592EED20089B7C2 /* DeleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD282592EED20089B7C2 /* DeleteViewController.m */; };
+		F3E3BD322592EF8E0089B7C2 /* ChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD312592EF8E0089B7C2 /* ChangeViewController.m */; };
+		F3E3BD382592F0400089B7C2 /* ChangeSonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD372592F0400089B7C2 /* ChangeSonViewController.m */; };
+		F3E3BD3E2592F1D80089B7C2 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD3D2592F1D80089B7C2 /* FindViewController.m */; };
+		F3E3BD442592F24F0089B7C2 /* FindSonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD432592F24F0089B7C2 /* FindSonViewController.m */; };
+		F3E3BD4A2592F2950089B7C2 /* FindSonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD492592F2950089B7C2 /* FindSonTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +88,50 @@
 		F3E3BCA32592DAC90089B7C2 /* detectiveTangTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = detectiveTangTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E3BCA72592DAC90089B7C2 /* detectiveTangTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detectiveTangTestUITests.m; sourceTree = "<group>"; };
 		F3E3BCA92592DAC90089B7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E3BCC72592E08B0089B7C2 /* 背景11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景11.jpg"; sourceTree = "<group>"; };
+		F3E3BCC82592E08B0089B7C2 /* 背景13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景13.jpg"; sourceTree = "<group>"; };
+		F3E3BCC92592E08C0089B7C2 /* 背景15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景15.jpg"; sourceTree = "<group>"; };
+		F3E3BCCA2592E08C0089B7C2 /* 背景12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景12.jpg"; sourceTree = "<group>"; };
+		F3E3BCCB2592E08C0089B7C2 /* 背景7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景7.jpg"; sourceTree = "<group>"; };
+		F3E3BCCC2592E08D0089B7C2 /* 背景14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景14.jpg"; sourceTree = "<group>"; };
+		F3E3BCCD2592E08D0089B7C2 /* 背景10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景10.jpg"; sourceTree = "<group>"; };
+		F3E3BCCE2592E08E0089B7C2 /* 姓名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "姓名.png"; sourceTree = "<group>"; };
+		F3E3BCCF2592E08E0089B7C2 /* 年龄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "年龄.png"; sourceTree = "<group>"; };
+		F3E3BCD02592E08E0089B7C2 /* 竖线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竖线.png"; sourceTree = "<group>"; };
+		F3E3BCD12592E08F0089B7C2 /* 背景8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景8.jpg"; sourceTree = "<group>"; };
+		F3E3BCD22592E08F0089B7C2 /* 背景17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景17.jpg"; sourceTree = "<group>"; };
+		F3E3BCD32592E08F0089B7C2 /* 背景16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景16.jpg"; sourceTree = "<group>"; };
+		F3E3BCD42592E0900089B7C2 /* zyy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zyy.jpg; sourceTree = "<group>"; };
+		F3E3BCD52592E0900089B7C2 /* 用户.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "用户.png"; sourceTree = "<group>"; };
+		F3E3BCD62592E0900089B7C2 /* 密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码.png"; sourceTree = "<group>"; };
+		F3E3BCD72592E0910089B7C2 /* 邮箱.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邮箱.png"; sourceTree = "<group>"; };
+		F3E3BCD82592E0910089B7C2 /* 房子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "房子.png"; sourceTree = "<group>"; };
+		F3E3BCF42592E1F70089B7C2 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		F3E3BCF52592E1F70089B7C2 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		F3E3BCFD2592E2790089B7C2 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F3E3BCFE2592E2790089B7C2 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F3E3BD032592E2C90089B7C2 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F3E3BD042592E2C90089B7C2 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F3E3BD092592E2FD0089B7C2 /* ShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		F3E3BD0A2592E2FD0089B7C2 /* ShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		F3E3BD0F2592E41F0089B7C2 /* Crime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crime.h; sourceTree = "<group>"; };
+		F3E3BD102592E41F0089B7C2 /* Crime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crime.m; sourceTree = "<group>"; };
+		F3E3BD152592E7F90089B7C2 /* MainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		F3E3BD162592E7F90089B7C2 /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		F3E3BD1C2592ECC50089B7C2 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		F3E3BD1D2592ECC50089B7C2 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		F3E3BD272592EED20089B7C2 /* DeleteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteViewController.h; sourceTree = "<group>"; };
+		F3E3BD282592EED20089B7C2 /* DeleteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteViewController.m; sourceTree = "<group>"; };
+		F3E3BD302592EF8E0089B7C2 /* ChangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeViewController.h; sourceTree = "<group>"; };
+		F3E3BD312592EF8E0089B7C2 /* ChangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeViewController.m; sourceTree = "<group>"; };
+		F3E3BD362592F0400089B7C2 /* ChangeSonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeSonViewController.h; sourceTree = "<group>"; };
+		F3E3BD372592F0400089B7C2 /* ChangeSonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeSonViewController.m; sourceTree = "<group>"; };
+		F3E3BD3C2592F1D80089B7C2 /* FindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		F3E3BD3D2592F1D80089B7C2 /* FindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		F3E3BD422592F24F0089B7C2 /* FindSonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindSonViewController.h; sourceTree = "<group>"; };
+		F3E3BD432592F24F0089B7C2 /* FindSonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindSonViewController.m; sourceTree = "<group>"; };
+		F3E3BD482592F2950089B7C2 /* FindSonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindSonTableViewCell.h; sourceTree = "<group>"; };
+		F3E3BD492592F2950089B7C2 /* FindSonTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindSonTableViewCell.m; sourceTree = "<group>"; };
 		FE53B18050FFB1692A51E1D6 /* Pods-detectiveTangTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-detectiveTangTest.release.xcconfig"; path = "Target Support Files/Pods-detectiveTangTest/Pods-detectiveTangTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +167,6 @@
 				74FB86908495EF1ED65C40B1 /* Pods-detectiveTangTest.debug.xcconfig */,
 				FE53B18050FFB1692A51E1D6 /* Pods-detectiveTangTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,12 +203,10 @@
 		F3E3BC7F2592DAC50089B7C2 /* detectiveTangTest */ = {
 			isa = PBXGroup;
 			children = (
-				F3E3BC802592DAC50089B7C2 /* AppDelegate.h */,
-				F3E3BC812592DAC50089B7C2 /* AppDelegate.m */,
-				F3E3BC832592DAC50089B7C2 /* SceneDelegate.h */,
-				F3E3BC842592DAC50089B7C2 /* SceneDelegate.m */,
-				F3E3BC862592DAC50089B7C2 /* ViewController.h */,
-				F3E3BC872592DAC50089B7C2 /* ViewController.m */,
+				F3E3BCC22592DF1E0089B7C2 /* Main */,
+				F3E3BCC32592DF2C0089B7C2 /* Util */,
+				F3E3BCC02592DEF60089B7C2 /* Classes */,
+				F3E3BCC12592DF050089B7C2 /* Resource */,
 				F3E3BC892592DAC50089B7C2 /* Main.storyboard */,
 				F3E3BC8C2592DAC80089B7C2 /* Assets.xcassets */,
 				F3E3BC8E2592DAC80089B7C2 /* LaunchScreen.storyboard */,
@@ -160,6 +232,108 @@
 				F3E3BCA92592DAC90089B7C2 /* Info.plist */,
 			);
 			path = detectiveTangTestUITests;
+			sourceTree = "<group>";
+		};
+		F3E3BCC02592DEF60089B7C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BD262592EEB30089B7C2 /* AddDeleteChangeFind */,
+				F3E3BCC62592DFCB0089B7C2 /* Main */,
+				F3E3BCC42592DFA60089B7C2 /* LoginAndRegister */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F3E3BCC12592DF050089B7C2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BCCB2592E08C0089B7C2 /* 背景7.jpg */,
+				F3E3BCD12592E08F0089B7C2 /* 背景8.jpg */,
+				F3E3BCCD2592E08D0089B7C2 /* 背景10.jpg */,
+				F3E3BCC72592E08B0089B7C2 /* 背景11.jpg */,
+				F3E3BCCA2592E08C0089B7C2 /* 背景12.jpg */,
+				F3E3BCC82592E08B0089B7C2 /* 背景13.jpg */,
+				F3E3BCCC2592E08D0089B7C2 /* 背景14.jpg */,
+				F3E3BCC92592E08C0089B7C2 /* 背景15.jpg */,
+				F3E3BCD32592E08F0089B7C2 /* 背景16.jpg */,
+				F3E3BCD22592E08F0089B7C2 /* 背景17.jpg */,
+				F3E3BCD82592E0910089B7C2 /* 房子.png */,
+				F3E3BCD62592E0900089B7C2 /* 密码.png */,
+				F3E3BCCF2592E08E0089B7C2 /* 年龄.png */,
+				F3E3BCD02592E08E0089B7C2 /* 竖线.png */,
+				F3E3BCCE2592E08E0089B7C2 /* 姓名.png */,
+				F3E3BCD52592E0900089B7C2 /* 用户.png */,
+				F3E3BCD72592E0910089B7C2 /* 邮箱.png */,
+				F3E3BCD42592E0900089B7C2 /* zyy.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F3E3BCC22592DF1E0089B7C2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BC802592DAC50089B7C2 /* AppDelegate.h */,
+				F3E3BC812592DAC50089B7C2 /* AppDelegate.m */,
+				F3E3BC832592DAC50089B7C2 /* SceneDelegate.h */,
+				F3E3BC842592DAC50089B7C2 /* SceneDelegate.m */,
+				F3E3BC862592DAC50089B7C2 /* ViewController.h */,
+				F3E3BC872592DAC50089B7C2 /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F3E3BCC32592DF2C0089B7C2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BD0F2592E41F0089B7C2 /* Crime.h */,
+				F3E3BD102592E41F0089B7C2 /* Crime.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F3E3BCC42592DFA60089B7C2 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BCF42592E1F70089B7C2 /* RegisterViewController.h */,
+				F3E3BCF52592E1F70089B7C2 /* RegisterViewController.m */,
+				F3E3BCFD2592E2790089B7C2 /* LoginViewController.h */,
+				F3E3BCFE2592E2790089B7C2 /* LoginViewController.m */,
+				F3E3BD092592E2FD0089B7C2 /* ShowViewController.h */,
+				F3E3BD0A2592E2FD0089B7C2 /* ShowViewController.m */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		F3E3BCC62592DFCB0089B7C2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BD032592E2C90089B7C2 /* MainViewController.h */,
+				F3E3BD042592E2C90089B7C2 /* MainViewController.m */,
+				F3E3BD152592E7F90089B7C2 /* MainTableViewCell.h */,
+				F3E3BD162592E7F90089B7C2 /* MainTableViewCell.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F3E3BD262592EEB30089B7C2 /* AddDeleteChangeFind */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BD1C2592ECC50089B7C2 /* AddViewController.h */,
+				F3E3BD1D2592ECC50089B7C2 /* AddViewController.m */,
+				F3E3BD272592EED20089B7C2 /* DeleteViewController.h */,
+				F3E3BD282592EED20089B7C2 /* DeleteViewController.m */,
+				F3E3BD302592EF8E0089B7C2 /* ChangeViewController.h */,
+				F3E3BD312592EF8E0089B7C2 /* ChangeViewController.m */,
+				F3E3BD362592F0400089B7C2 /* ChangeSonViewController.h */,
+				F3E3BD372592F0400089B7C2 /* ChangeSonViewController.m */,
+				F3E3BD3C2592F1D80089B7C2 /* FindViewController.h */,
+				F3E3BD3D2592F1D80089B7C2 /* FindViewController.m */,
+				F3E3BD422592F24F0089B7C2 /* FindSonViewController.h */,
+				F3E3BD432592F24F0089B7C2 /* FindSonViewController.m */,
+				F3E3BD482592F2950089B7C2 /* FindSonTableViewCell.h */,
+				F3E3BD492592F2950089B7C2 /* FindSonTableViewCell.m */,
+			);
+			path = AddDeleteChangeFind;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +439,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E3BCE92592E0910089B7C2 /* 邮箱.png in Resources */,
+				F3E3BCE72592E0910089B7C2 /* 用户.png in Resources */,
+				F3E3BCE42592E0910089B7C2 /* 背景17.jpg in Resources */,
+				F3E3BCE22592E0910089B7C2 /* 竖线.png in Resources */,
+				F3E3BCE32592E0910089B7C2 /* 背景8.jpg in Resources */,
+				F3E3BCDD2592E0910089B7C2 /* 背景7.jpg in Resources */,
+				F3E3BCEA2592E0910089B7C2 /* 房子.png in Resources */,
+				F3E3BCE12592E0910089B7C2 /* 年龄.png in Resources */,
+				F3E3BCDB2592E0910089B7C2 /* 背景15.jpg in Resources */,
+				F3E3BCDC2592E0910089B7C2 /* 背景12.jpg in Resources */,
+				F3E3BCDA2592E0910089B7C2 /* 背景13.jpg in Resources */,
+				F3E3BCD92592E0910089B7C2 /* 背景11.jpg in Resources */,
+				F3E3BCE52592E0910089B7C2 /* 背景16.jpg in Resources */,
+				F3E3BCE82592E0910089B7C2 /* 密码.png in Resources */,
+				F3E3BCDF2592E0910089B7C2 /* 背景10.jpg in Resources */,
+				F3E3BCE02592E0910089B7C2 /* 姓名.png in Resources */,
 				F3E3BC902592DAC80089B7C2 /* LaunchScreen.storyboard in Resources */,
+				F3E3BCE62592E0910089B7C2 /* zyy.jpg in Resources */,
+				F3E3BCDE2592E0910089B7C2 /* 背景14.jpg in Resources */,
 				F3E3BC8D2592DAC80089B7C2 /* Assets.xcassets in Resources */,
 				F3E3BC8B2592DAC50089B7C2 /* Main.storyboard in Resources */,
 			);
@@ -318,9 +510,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3E3BC882592DAC50089B7C2 /* ViewController.m in Sources */,
+				F3E3BD382592F0400089B7C2 /* ChangeSonViewController.m in Sources */,
+				F3E3BD442592F24F0089B7C2 /* FindSonViewController.m in Sources */,
+				F3E3BCF62592E1F70089B7C2 /* RegisterViewController.m in Sources */,
+				F3E3BD1E2592ECC50089B7C2 /* AddViewController.m in Sources */,
+				F3E3BCFF2592E2790089B7C2 /* LoginViewController.m in Sources */,
 				F3E3BC822592DAC50089B7C2 /* AppDelegate.m in Sources */,
+				F3E3BD322592EF8E0089B7C2 /* ChangeViewController.m in Sources */,
+				F3E3BD172592E7F90089B7C2 /* MainTableViewCell.m in Sources */,
+				F3E3BD052592E2C90089B7C2 /* MainViewController.m in Sources */,
 				F3E3BC932592DAC80089B7C2 /* main.m in Sources */,
+				F3E3BD112592E41F0089B7C2 /* Crime.m in Sources */,
 				F3E3BC852592DAC50089B7C2 /* SceneDelegate.m in Sources */,
+				F3E3BD3E2592F1D80089B7C2 /* FindViewController.m in Sources */,
+				F3E3BD0B2592E2FD0089B7C2 /* ShowViewController.m in Sources */,
+				F3E3BD4A2592F2950089B7C2 /* FindSonTableViewCell.m in Sources */,
+				F3E3BD292592EED20089B7C2 /* DeleteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

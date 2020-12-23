@@ -5,6 +5,449 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>13E519AB-834F-49C3-B19E-0B6DD3D5E60D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>13E519AB-834F-49C3-B19E-0B6DD3D5E60D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630383801.02416098</real>
+			<key>timeStoppedRecording</key>
+			<real>630383837.87363195</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>13E519AB-834F-49C3-B19E-0B6DD3D5E60D</string>
+		</dict>
+		<key>1A8FC90C-24EB-45A4-89AA-4A5D64807D2E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1A8FC90C-24EB-45A4-89AA-4A5D64807D2E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630388427.855726</real>
+			<key>timeStoppedRecording</key>
+			<real>630388460.69582605</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>1A8FC90C-24EB-45A4-89AA-4A5D64807D2E</string>
+		</dict>
+		<key>480B3DFC-B055-4FBB-8A44-35BB4383B352</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>480B3DFC-B055-4FBB-8A44-35BB4383B352.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630384039.16887796</real>
+			<key>timeStoppedRecording</key>
+			<real>630384527.55521405</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>480B3DFC-B055-4FBB-8A44-35BB4383B352</string>
+		</dict>
+		<key>500D51B9-1647-419F-8D0B-AA0715F6C47A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>500D51B9-1647-419F-8D0B-AA0715F6C47A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630383837.74335301</real>
+			<key>timeStoppedRecording</key>
+			<real>630383857.45413601</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>500D51B9-1647-419F-8D0B-AA0715F6C47A</string>
+		</dict>
+		<key>5DB7C546-0FB4-451C-AB74-7D85DB77D31E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5DB7C546-0FB4-451C-AB74-7D85DB77D31E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630384528.37960994</real>
+			<key>timeStoppedRecording</key>
+			<real>630386884.62185299</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>5DB7C546-0FB4-451C-AB74-7D85DB77D31E</string>
+		</dict>
+		<key>79AD84DA-BCA4-4752-98E7-094B8CA67D26</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>79AD84DA-BCA4-4752-98E7-094B8CA67D26.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630388373.11958301</real>
+			<key>timeStoppedRecording</key>
+			<real>630388427.489411</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>79AD84DA-BCA4-4752-98E7-094B8CA67D26</string>
+		</dict>
+		<key>892BC55A-848A-4DB8-91C4-F4E93A2E6C92</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>892BC55A-848A-4DB8-91C4-F4E93A2E6C92.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630387955.15361595</real>
+			<key>timeStoppedRecording</key>
+			<real>630388372.60809195</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>892BC55A-848A-4DB8-91C4-F4E93A2E6C92</string>
+		</dict>
+		<key>91ACA8FE-31E5-4F94-A830-2F382A4C0A95</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>91ACA8FE-31E5-4F94-A830-2F382A4C0A95.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630388460.94626904</real>
+			<key>timeStoppedRecording</key>
+			<real>630388480.83946395</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>91ACA8FE-31E5-4F94-A830-2F382A4C0A95</string>
+		</dict>
+		<key>AC7AA88E-C90B-4EF4-83B3-5CFBAFA5B143</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AC7AA88E-C90B-4EF4-83B3-5CFBAFA5B143.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630383857.32562494</real>
+			<key>timeStoppedRecording</key>
+			<real>630383897.36901104</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>AC7AA88E-C90B-4EF4-83B3-5CFBAFA5B143</string>
+		</dict>
+		<key>BBBAAD47-6238-49AE-96A7-0173A075CE30</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BBBAAD47-6238-49AE-96A7-0173A075CE30.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630383590.58622301</real>
+			<key>timeStoppedRecording</key>
+			<real>630383718.14128399</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>BBBAAD47-6238-49AE-96A7-0173A075CE30</string>
+		</dict>
+		<key>DFBE60BA-8C45-43BA-A649-2C6C44EDD1DE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DFBE60BA-8C45-43BA-A649-2C6C44EDD1DE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630383757.93066096</real>
+			<key>timeStoppedRecording</key>
+			<real>630383800.72469699</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>DFBE60BA-8C45-43BA-A649-2C6C44EDD1DE</string>
+		</dict>
+		<key>E01CF164-D50B-48CC-9239-C6240E0DC42D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E01CF164-D50B-48CC-9239-C6240E0DC42D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630383719.16428995</real>
+			<key>timeStoppedRecording</key>
+			<real>630383757.70284605</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>E01CF164-D50B-48CC-9239-C6240E0DC42D</string>
+		</dict>
+		<key>F88BB572-38FB-4531-AE4A-75BAADEC8163</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F88BB572-38FB-4531-AE4A-75BAADEC8163.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>detectiveTangTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>detectiveTangTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run detectiveTangTest</string>
+			<key>timeStartedRecording</key>
+			<real>630383897.21893096</real>
+			<key>timeStoppedRecording</key>
+			<real>630384038.288445</real>
+			<key>title</key>
+			<string>Run detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>F88BB572-38FB-4531-AE4A-75BAADEC8163</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
