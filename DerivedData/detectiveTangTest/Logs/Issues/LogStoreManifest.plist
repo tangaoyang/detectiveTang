@@ -34,34 +34,6 @@
 			<key>uniqueIdentifier</key>
 			<string>02E07A46-66BD-408C-BF42-5C17EE6166CC</string>
 		</dict>
-		<key>1C976722-13AB-4B97-A763-82217C6102AF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>1C976722-13AB-4B97-A763-82217C6102AF.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>detectiveTangTest-cqubltzyllupwcghisoydunqhotu</string>
-			<key>timeStartedRecording</key>
-			<real>630436939.56763804</real>
-			<key>timeStoppedRecording</key>
-			<real>630436940.75480998</real>
-			<key>title</key>
-			<string>Build target detectiveTangTest</string>
-			<key>uniqueIdentifier</key>
-			<string>1C976722-13AB-4B97-A763-82217C6102AF</string>
-		</dict>
 		<key>2387DF5F-30E0-4D15-8E41-30C856C4E052</key>
 		<dict>
 			<key>className</key>
@@ -117,6 +89,34 @@
 			<string>Build target AFNetworking</string>
 			<key>uniqueIdentifier</key>
 			<string>4ABC7CE0-0EC9-4425-AF16-DFF8E119BA62</string>
+		</dict>
+		<key>DDA26157-6989-4942-B635-E7A410E3B066</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>DDA26157-6989-4942-B635-E7A410E3B066.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>detectiveTangTest-cqubltzyllupwcghisoydunqhotu</string>
+			<key>timeStartedRecording</key>
+			<real>630474267.10096598</real>
+			<key>timeStoppedRecording</key>
+			<real>630474268.35137105</real>
+			<key>title</key>
+			<string>Build target detectiveTangTest</string>
+			<key>uniqueIdentifier</key>
+			<string>DDA26157-6989-4942-B635-E7A410E3B066</string>
 		</dict>
 		<key>F18A095C-6D6C-458E-A50F-5041CAF600E2</key>
 		<dict>

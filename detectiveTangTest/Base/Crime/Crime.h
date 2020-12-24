@@ -11,30 +11,31 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Crime : NSObject
 
-@property (nonatomic, assign) NSInteger *RecoreId;
-@property (nonatomic, copy) NSString *AgencyCode;
-@property (nonatomic, copy) NSString *AgencyName;
-@property (nonatomic, copy) NSString *AgencyType;
-@property (nonatomic, copy) NSString *City;
-@property (nonatomic, copy) NSString *State;
-@property (nonatomic, assign) NSInteger *Year;
-@property (nonatomic, copy) NSString *Month;
-@property (nonatomic, assign) NSInteger *Incident;
-@property (nonatomic, copy) NSString *CrimeType;
-@property (nonatomic, copy) NSString *CrimeSolved;
-@property (nonatomic, copy) NSString *VictimSex;
-@property (nonatomic, assign) NSInteger *VictimAge;
-@property (nonatomic, copy) NSString *VictimRace;
-@property (nonatomic, copy) NSString *VictimEthnicity;
-@property (nonatomic, copy) NSString *PerpetratorSex;
-@property (nonatomic, assign) NSInteger *PerpetratorAge;
-@property (nonatomic, copy) NSString *PerpetratorRace;
-@property (nonatomic, copy) NSString *PerpetratorEthnicity;
-@property (nonatomic, copy) NSString *Relationship;
-@property (nonatomic, copy) NSString *Weapon;
-@property (nonatomic, assign) NSInteger *VictimCount;
-@property (nonatomic, assign) NSInteger *PerpetratorCount;
-@property (nonatomic, copy) NSString *RecordSource;
+
+@property (nonatomic, copy) NSString *recordID;
+@property (nonatomic, copy) NSString *agencyCode;
+@property (nonatomic, copy) NSString *agencyName;
+@property (nonatomic, copy) NSString *agencyType;
+@property (nonatomic, copy) NSString *city;
+@property (nonatomic, copy) NSString *state;
+@property (nonatomic, copy) NSString *year;
+@property (nonatomic, copy) NSString *month;
+@property (nonatomic, copy) NSString *incident;
+@property (nonatomic, copy) NSString *crimeType;
+@property (nonatomic, copy) NSString *crimeSolved;
+@property (nonatomic, copy) NSString *victimSex;
+@property (nonatomic, copy) NSString *victimAge;
+@property (nonatomic, copy) NSString *victimRace;
+@property (nonatomic, copy) NSString *victimEthnicity;
+@property (nonatomic, copy) NSString *perpetratorSex;
+@property (nonatomic, copy) NSString *perpetratorAge;
+@property (nonatomic, copy) NSString *perpetratorRace;
+@property (nonatomic, copy) NSString *perpetratorEthnicity;
+@property (nonatomic, copy) NSString *relationship;
+@property (nonatomic, copy) NSString *weapon;
+@property (nonatomic, copy) NSString *victimCount;
+@property (nonatomic, copy) NSString *perpetratorCount;
+@property (nonatomic, copy) NSString *recordSource;
 
 @end
 

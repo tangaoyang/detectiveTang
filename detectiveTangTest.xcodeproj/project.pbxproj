@@ -52,6 +52,9 @@
 		F3E3BD732592FE7F0089B7C2 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD722592FE7F0089B7C2 /* LoginModel.m */; };
 		F3E3BD7A25939E310089B7C2 /* BaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD7925939E310089B7C2 /* BaseManager.m */; };
 		F3E3BD8025939F250089B7C2 /* FindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD7F25939F250089B7C2 /* FindModel.m */; };
+		F3E3BD882594264C0089B7C2 /* SortRelationshipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD872594264C0089B7C2 /* SortRelationshipModel.m */; };
+		F3E3BD9125942AB60089B7C2 /* SortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD9025942AB60089B7C2 /* SortViewController.m */; };
+		F3E3BD972594367E0089B7C2 /* StringModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BD962594367E0089B7C2 /* StringModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +147,12 @@
 		F3E3BD7925939E310089B7C2 /* BaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseManager.m; sourceTree = "<group>"; };
 		F3E3BD7E25939F250089B7C2 /* FindModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindModel.h; sourceTree = "<group>"; };
 		F3E3BD7F25939F250089B7C2 /* FindModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindModel.m; sourceTree = "<group>"; };
+		F3E3BD862594264C0089B7C2 /* SortRelationshipModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortRelationshipModel.h; sourceTree = "<group>"; };
+		F3E3BD872594264C0089B7C2 /* SortRelationshipModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortRelationshipModel.m; sourceTree = "<group>"; };
+		F3E3BD8F25942AB60089B7C2 /* SortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortViewController.h; sourceTree = "<group>"; };
+		F3E3BD9025942AB60089B7C2 /* SortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortViewController.m; sourceTree = "<group>"; };
+		F3E3BD952594367E0089B7C2 /* StringModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringModel.h; sourceTree = "<group>"; };
+		F3E3BD962594367E0089B7C2 /* StringModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringModel.m; sourceTree = "<group>"; };
 		FE53B18050FFB1692A51E1D6 /* Pods-detectiveTangTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-detectiveTangTest.release.xcconfig"; path = "Target Support Files/Pods-detectiveTangTest/Pods-detectiveTangTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -251,6 +260,7 @@
 		F3E3BCC02592DEF60089B7C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F3E3BD852594257F0089B7C2 /* SortRelationship */,
 				F3E3BD262592EEB30089B7C2 /* AddDeleteChangeFind */,
 				F3E3BCC62592DFCB0089B7C2 /* Main */,
 				F3E3BCC42592DFA60089B7C2 /* LoginAndRegister */,
@@ -410,6 +420,19 @@
 				F3E3BD7925939E310089B7C2 /* BaseManager.m */,
 			);
 			path = QueryDeleteChangeAdd;
+			sourceTree = "<group>";
+		};
+		F3E3BD852594257F0089B7C2 /* SortRelationship */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3BD862594264C0089B7C2 /* SortRelationshipModel.h */,
+				F3E3BD872594264C0089B7C2 /* SortRelationshipModel.m */,
+				F3E3BD8F25942AB60089B7C2 /* SortViewController.h */,
+				F3E3BD9025942AB60089B7C2 /* SortViewController.m */,
+				F3E3BD952594367E0089B7C2 /* StringModel.h */,
+				F3E3BD962594367E0089B7C2 /* StringModel.m */,
+			);
+			path = SortRelationship;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -589,6 +612,7 @@
 				F3E3BD382592F0400089B7C2 /* ChangeSonViewController.m in Sources */,
 				F3E3BD442592F24F0089B7C2 /* FindSonViewController.m in Sources */,
 				F3E3BCF62592E1F70089B7C2 /* RegisterViewController.m in Sources */,
+				F3E3BD9125942AB60089B7C2 /* SortViewController.m in Sources */,
 				F3E3BD1E2592ECC50089B7C2 /* AddViewController.m in Sources */,
 				F3E3BCFF2592E2790089B7C2 /* LoginViewController.m in Sources */,
 				F3E3BC822592DAC50089B7C2 /* AppDelegate.m in Sources */,
@@ -600,10 +624,12 @@
 				F3E3BC932592DAC80089B7C2 /* main.m in Sources */,
 				F3E3BD112592E41F0089B7C2 /* Crime.m in Sources */,
 				F3E3BC852592DAC50089B7C2 /* SceneDelegate.m in Sources */,
+				F3E3BD972594367E0089B7C2 /* StringModel.m in Sources */,
 				F3E3BD7A25939E310089B7C2 /* BaseManager.m in Sources */,
 				F3E3BD3E2592F1D80089B7C2 /* FindViewController.m in Sources */,
 				F3E3BD0B2592E2FD0089B7C2 /* ShowViewController.m in Sources */,
 				F3E3BD4A2592F2950089B7C2 /* FindSonTableViewCell.m in Sources */,
+				F3E3BD882594264C0089B7C2 /* SortRelationshipModel.m in Sources */,
 				F3E3BD292592EED20089B7C2 /* DeleteViewController.m in Sources */,
 				F3E3BD5D2592FD090089B7C2 /* DTLoginManager.m in Sources */,
 			);

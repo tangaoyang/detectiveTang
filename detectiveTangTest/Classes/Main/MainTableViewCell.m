@@ -18,11 +18,17 @@
     self.backgroundColor = [UIColor clearColor];
 }
 
+- (void)give:(NSIndexPath *)indexPath Arr1:(NSMutableArray *)nameArr Arr2:(NSMutableArray *)ageArr {
+    self.nameLabel.text = nameArr[indexPath.row];
+    self.ageLabel.text = ageArr[indexPath.row];
+    self.backgroundColor = [UIColor clearColor];
+}
+
 - (void)give:(NSIndexPath *)indexPath Array:(NSMutableArray *) array {
     Crime *crime = array[indexPath.row];
-    self.nameLabel.text = [NSString stringWithFormat:@"%ld", crime.RecoreId];
-    self.ageLabel.text = crime.Relationship;
-    self.classLabel.text = crime.City;
+    self.nameLabel.text = crime.recordID;
+    self.ageLabel.text = crime.relationship;
+    self.classLabel.text = crime.city;
     self.backgroundColor = [UIColor clearColor];
 }
 

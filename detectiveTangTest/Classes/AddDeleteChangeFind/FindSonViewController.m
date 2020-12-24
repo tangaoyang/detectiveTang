@@ -25,7 +25,7 @@
     label1.textColor = [UIColor whiteColor];
     label1.tintColor = [UIColor clearColor];
     label1.font = [UIFont systemFontOfSize:28];
-    label1.text = @"您查找的学生信息为：";
+    label1.text = @"您查找的案件信息为：";
     [self.view addSubview:label1];
     
     _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 290, [UIScreen mainScreen].bounds.size.width, 550) style:UITableViewStylePlain];

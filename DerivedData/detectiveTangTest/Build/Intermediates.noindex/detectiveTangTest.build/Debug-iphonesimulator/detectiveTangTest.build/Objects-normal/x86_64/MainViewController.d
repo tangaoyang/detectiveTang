@@ -14,4 +14,8 @@ dependencies: \
   /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONModel.h \
   /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONModelError.h \
   /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONValueTransformer.h \
-  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONKeyMapper.h
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONKeyMapper.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/HTTP/Manager/QueryDeleteChangeAdd/BaseManager.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/SortRelationship/SortViewController.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/SortRelationship/SortRelationshipModel.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/SortRelationship/StringModel.h

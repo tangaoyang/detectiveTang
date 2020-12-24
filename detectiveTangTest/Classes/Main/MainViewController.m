@@ -9,6 +9,10 @@
 #import "MainTableViewCell.h"
 #import "Crime.h"
 #import "FindModel.h"
+#import "BaseManager.h"
+#import "SortViewController.h"
+#import "SortRelationshipModel.h"
+#import "StringModel.h"
 
 @interface MainViewController ()
 
@@ -25,7 +29,7 @@
     backImageView.frame = self.view.bounds;
     [self.view insertSubview:backImageView atIndex:0];
     
-    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 500) style:UITableViewStylePlain];
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 520) style:UITableViewStylePlain];
     [self.view addSubview:_tableView];
     _tableView.dataSource = self;
     _tableView.delegate = self;
@@ -65,41 +69,74 @@
     findButton.titleLabel.font = [UIFont systemFontOfSize:30];
     [findButton addTarget:self action:@selector(find) forControlEvents:UIControlEventTouchDown];
     
-    UIButton *exitButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [self.view addSubview:exitButton];
-    exitButton.frame = CGRectMake(250, 730, 100, 50);
-    [exitButton setTitle:@"exit" forState:UIControlStateNormal];
-    exitButton.tintColor = [UIColor whiteColor];
-    exitButton.titleLabel.font = [UIFont systemFontOfSize:30];
-    [exitButton addTarget:self action:@selector(exit) forControlEvents:UIControlEventTouchDown];
+    UIButton *aprioriButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [self.view addSubview:aprioriButton];
+    aprioriButton.frame = CGRectMake(0, 730, 400, 50);
+    [aprioriButton setTitle:@"aprioriToFindRelationshipAndCity" forState:UIControlStateNormal];
+    aprioriButton.tintColor = [UIColor whiteColor];
+    aprioriButton.titleLabel.font = [UIFont systemFontOfSize:20];
+    [aprioriButton addTarget:self action:@selector(exit) forControlEvents:UIControlEventTouchDown];
     
+    UIButton *sortButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [self.view addSubview:sortButton];
+    sortButton.frame = CGRectMake(100, 500, 250, 50);
+    [sortButton setTitle:@"findRelationshipMore" forState:UIControlStateNormal];
+    sortButton.tintColor = [UIColor whiteColor];
+    sortButton.titleLabel.font = [UIFont systemFontOfSize:20];
+    [sortButton addTarget:self action:@selector(sort) forControlEvents:UIControlEventTouchDown];
     
-//    self.crimeArray = [[NSMutableArray alloc] init];
-//    Crime *crime1 = [[Crime alloc] init];
-//    crime1.RecoreId = 1;
-//    crime1.Relationship = @"friend";
-//    crime1.City = @"beijing";
-//    [_crimeArray addObject:crime1];
+}
+
+- (void)sort {
     
-    
+    SortViewController *sort = [[SortViewController alloc] init];
+    sort.modalPresentationStyle = UIModalPresentationFullScreen;
+    [[BaseManager sharedManager] getSortMessage:^(SortRelationshipModel * _Nonnull sortRelationshipModel) {
+        [sort.countArray removeAllObjects];
+        [sort.relationshipArray removeAllObjects];
+            for (int i = 0; i < sortRelationshipModel.sortRelation.count; i++) {
+                RelationshipModel *relation = sortRelationshipModel.sortRelation[i];
+                [sort.countArray addObject:relation.count];
+                [sort.relationshipArray addObject:relation.relationship];
+            }
+            [sort.tableView reloadData];
+        } error:^(NSError * _Nonnull error) {
+            NSLog(@"getSortMessage error = %@", error);
+        }];
+    [self presentViewController:sort animated:NO completion:nil];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     MainTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"111" forIndexPath:indexPath];
     
-    [cell give:indexPath Array:_crimeArray];
+    [cell give:indexPath Arr1:_nameArray Arr2:_ageArray Arr3:_classArray];
     
     return cell;
     
 }
 
 - (void)exit{
-    exit(0);
+    
+    __block NSString *max;
+    [[BaseManager sharedManager] getAprioriMessage:^(StringModel * _Nonnull stringModel) {
+            NSLog(@"good");
+            max = stringModel.Max;
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"aprioriToFindRelationshipAndCity" message:[NSString stringWithFormat:@"%@", max] preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *action = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleCancel handler:nil];
+        [alert addAction:action];
+//        dispatch_sync(dispatch_get_main_queue(), ^{
+            [self presentViewController:alert animated:NO completion:nil];
+//        });
+        } error:^(NSError * _Nonnull error) {
+            NSLog(@"getAprioriMessage error = %@", error);
+        }];
+    
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return _crimeArray.count;
+    return _nameArray.count;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -109,9 +146,10 @@
 - (void)add {
     
     AddViewController *addRoot = [[AddViewController alloc] init];
-//    addRoot.nameArr = _nameArr;
-//    addRoot.ageArr = _ageArr;
-//    addRoot.classArr = _classArr;
+    addRoot.modalPresentationStyle = UIModalPresentationFullScreen;
+    addRoot.nameArr = _nameArray;
+    addRoot.ageArr = _ageArray;
+    addRoot.classArr = _classArray;
     addRoot.addDelegate = self;
     [self presentViewController:addRoot animated:NO completion:nil];
     
@@ -120,9 +158,10 @@
 - (void)delete {
     
     DeleteViewController *deleteRoot = [[DeleteViewController alloc] init];
-//    deleteRoot.nameArr = _nameArr;
-//    deleteRoot.ageArr = _ageArr;
-//    deleteRoot.classArr = _classArr;
+    deleteRoot.modalPresentationStyle = UIModalPresentationFullScreen;
+    deleteRoot.nameArr = _nameArray;
+    deleteRoot.ageArr = _ageArray;
+    deleteRoot.classArr = _classArray;
     deleteRoot.deleteDelegate = self;
     [self presentViewController:deleteRoot animated:NO completion:nil];
     
@@ -131,9 +170,10 @@
 - (void)change{
     
     ChangeViewController *changeRoot = [[ChangeViewController alloc] init];
-//    changeRoot.nameArr = _nameArr;
-//    changeRoot.ageArr = _ageArr;
-//    changeRoot.classArr = _classArr;
+    changeRoot.modalPresentationStyle = UIModalPresentationFullScreen;
+    changeRoot.nameArr = _nameArray;
+    changeRoot.ageArr = _ageArray;
+    changeRoot.classArr = _classArray;
     changeRoot.changeDelegate = self;
     [self presentViewController:changeRoot animated:NO completion:nil];
     
@@ -142,36 +182,37 @@
 - (void)find{
     
     FindViewController *findRoot = [[FindViewController alloc] init];
-//    findRoot.nameArr = _nameArr;
-//    findRoot.ageArr = _ageArr;
-//    findRoot.classArr = _classArr;
+    findRoot.modalPresentationStyle = UIModalPresentationFullScreen;
+    findRoot.nameArr = _nameArray;
+    findRoot.ageArr = _ageArray;
+    findRoot.classArr = _classArray;
     [self presentViewController:findRoot animated:NO completion:nil];
     
 }
 
 - (void)pass:(Crime *)crime {
     
-//    [_nameArr addObject:crime.RecordID];
-//    [_ageArr addObject:crime.Relationship];
-//    [_classArr addObject:crime.City];
+    [_nameArray addObject:crime.recordID];
+    [_ageArray addObject:crime.relationship];
+    [_classArray addObject:crime.city];
     [_tableView reloadData];
     
 }
 
 - (void)deletepass1:(NSMutableArray *)nameArr pass2:(NSMutableArray *)ageArr pass3:(NSMutableArray *)classArr{
     
-//    _nameArr = nameArr;
-//    _ageArr = ageArr;
-//    _classArr = classArr;
+    _nameArray = nameArr;
+    _ageArray = ageArr;
+    _classArray = classArr;
     [_tableView reloadData];
     
 }
 
 - (void)changePass1:(NSMutableArray *)nameArr Pass2:(NSMutableArray *)ageArr Pass3:(NSMutableArray *)classArr{
     
-//    _nameArr = nameArr;
-//    _ageArr = ageArr;
-//    _classArr = classArr;
+    _nameArray = nameArr;
+    _ageArray = ageArr;
+    _classArray = classArr;
     [_tableView reloadData];
     
 }

@@ -22,9 +22,6 @@
     backImageView.frame = self.view.bounds;
     [self.view insertSubview:backImageView atIndex:0];
     
-    UIImage *nameImage = [UIImage imageNamed:@"姓名.png"];
-    UIImageView *nameImageView = [[UIImageView alloc] initWithImage:nameImage];
-    nameImageView.frame = CGRectMake(3, 3, 45, 45);
     _nameTextField = [[UITextField alloc] init];
     _nameTextField.layer.masksToBounds = YES;
     _nameTextField.layer.cornerRadius = 5;
@@ -35,13 +32,8 @@
     _nameTextField.backgroundColor = [UIColor clearColor];
     _nameTextField.frame = CGRectMake(80, 500, 250, 50);
     _nameTextField.placeholder = @"请输入案件ID";
-    _nameTextField.leftViewMode = UITextFieldViewModeAlways;
-    _nameTextField.leftView = nameImageView;
     [self.view addSubview:_nameTextField];
     
-    UIImage *ageImage = [UIImage imageNamed:@"年龄.png"];
-    UIImageView *ageImageView = [[UIImageView alloc] initWithImage:ageImage];
-    ageImageView.frame = CGRectMake(3, 3, 45, 45);
     _ageTextField = [[UITextField alloc] initWithFrame:CGRectMake(80, 565, 250, 50)];
     [self.view addSubview:_ageTextField];
     _ageTextField.placeholder = @"请输入案件两者关系";
@@ -53,11 +45,7 @@
     _ageTextField.backgroundColor = [UIColor clearColor];
     _ageTextField.layer.borderColor = [UIColor whiteColor].CGColor;
     _ageTextField.leftViewMode = UITextFieldViewModeAlways;
-    _ageTextField.leftView = ageImageView;
     
-    UIImage *classImage = [UIImage imageNamed:@"房子.png"];
-    UIImageView *classImageView = [[UIImageView alloc] initWithImage:classImage];
-    classImageView.frame = CGRectMake(3, 3, 45, 45);
     _classTextField = [[UITextField alloc] initWithFrame:CGRectMake(80, 630, 250, 50)];
     [self.view addSubview:_classTextField];
     _classTextField.placeholder = @"请输入案件发生地";
@@ -69,7 +57,6 @@
     _classTextField.backgroundColor = [UIColor clearColor];
     _classTextField.layer.borderColor = [UIColor whiteColor].CGColor;
     _classTextField.leftViewMode = UITextFieldViewModeAlways;
-    _classTextField.leftView = classImageView;
     
     UIButton *add = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [self.view addSubview:add];
@@ -134,7 +121,7 @@
             }
         }
         if(i != _nameArr.count){
-            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"姓名有重复，请核对后再试！" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"ID有重复，请核对后再试！" preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *sure = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleCancel handler:nil];
             [alert addAction:sure];
             [self presentViewController:alert animated:NO completion:nil];
@@ -143,9 +130,9 @@
             [self dismissViewControllerAnimated:NO completion:nil];
             if([_addDelegate respondsToSelector:@selector(pass:)]) {
                 Crime *crime = [[Crime alloc] init];
-                crime.RecoreId = _nameTextField.text.integerValue;
-                crime.Relationship = _ageTextField.text;
-                crime.City = _classTextField.text;
+                crime.recordID = _nameTextField.text;
+                crime.relationship = _ageTextField.text;
+                crime.city = _classTextField.text;
                 [_addDelegate pass:crime];
             }
         }

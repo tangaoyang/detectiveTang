@@ -74,11 +74,11 @@
 }
 
 - (void)delete{
-    [[BaseManager sharedManager] deleteCrimeMessage:^(FindModel * _Nullable findModel) {
-        NSLog(@"good");
-    } error:^(NSError * _Nonnull error) {
-        NSLog(@"deleteCrimeMessage error = %@", error);
-    } recordID:_nameTextField.text.integerValue];
+//    [[BaseManager sharedManager] deleteCrimeMessage:^(FindModel * _Nullable findModel) {
+//        NSLog(@"good");
+//    } error:^(NSError * _Nonnull error) {
+//        NSLog(@"deleteCrimeMessage error = %@", error);
+//    } recordID:_nameTextField.text.integerValue];
     for(i = 0; i < _nameArr.count; i++){
         if([_nameArr[i] isEqualToString:_nameTextField.text]){
             UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"已找到此案件，确认是否删除" preferredStyle:UIAlertControllerStyleAlert];

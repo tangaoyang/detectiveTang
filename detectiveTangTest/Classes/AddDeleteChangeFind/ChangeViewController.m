@@ -99,7 +99,7 @@
         }
     }
     if(i != _nameArr.count){
-        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"存在此人，是否继续修改" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"存在此案件，是否继续修改" preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *sure = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleCancel handler:^(UIAlertAction *_Nonnull action){
             ChangeSonViewController *sonRoot = [[ChangeSonViewController alloc] init];
             sonRoot.nameArr = self->_nameArr;
@@ -115,7 +115,7 @@
         [self presentViewController:alert animated:NO completion:nil];
     }
     if(i == _nameArr.count){
-        UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示" message:@"没找到此人，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示" message:@"没找到此案件，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *sure1 = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleDefault handler:nil];
         [alert1 addAction:sure1];
         [self presentViewController:alert1 animated:NO completion:nil];

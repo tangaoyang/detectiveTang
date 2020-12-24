@@ -20,9 +20,6 @@
     backImageView.frame = self.view.bounds;
     [self.view insertSubview:backImageView atIndex:0];
     
-    UIImage *nameImage = [UIImage imageNamed:@"姓名.png"];
-    UIImageView *nameImageView = [[UIImageView alloc] initWithImage:nameImage];
-    nameImageView.frame = CGRectMake(3, 3, 45, 45);
     _nameTextField = [[UITextField alloc] init];
     _nameTextField.text = _str;
     _nameTextField.delegate = self;
@@ -34,17 +31,12 @@
     _nameTextField.textColor = [UIColor whiteColor];
     _nameTextField.backgroundColor = [UIColor clearColor];
     _nameTextField.frame = CGRectMake(80, 250, 250, 50);
-    _nameTextField.placeholder = @"请输入学生姓名";
-    _nameTextField.leftViewMode = UITextFieldViewModeAlways;
-    _nameTextField.leftView = nameImageView;
+    _nameTextField.placeholder = @"请输入案件ID";
     [self.view addSubview:_nameTextField];
     
-    UIImage *ageImage = [UIImage imageNamed:@"年龄.png"];
-    UIImageView *ageImageView = [[UIImageView alloc] initWithImage:ageImage];
-    ageImageView.frame = CGRectMake(3, 3, 45, 45);
     _ageTextField = [[UITextField alloc] initWithFrame:CGRectMake(80, 315, 250, 50)];
     [self.view addSubview:_ageTextField];
-    _ageTextField.placeholder = @"请输入学生年龄";
+    _ageTextField.placeholder = @"请输入案件两者关系";
     _ageTextField.layer.masksToBounds = YES;
     _ageTextField.layer.borderWidth = 2;
     _ageTextField.layer.cornerRadius = 5;
@@ -52,15 +44,10 @@
     _ageTextField.textColor = [UIColor whiteColor];
     _ageTextField.backgroundColor = [UIColor clearColor];
     _ageTextField.layer.borderColor = [UIColor whiteColor].CGColor;
-    _ageTextField.leftViewMode = UITextFieldViewModeAlways;
-    _ageTextField.leftView = ageImageView;
     
-    UIImage *classImage = [UIImage imageNamed:@"房子.png"];
-    UIImageView *classImageView = [[UIImageView alloc] initWithImage:classImage];
-    classImageView.frame = CGRectMake(3, 3, 45, 45);
     _classTextField = [[UITextField alloc] initWithFrame:CGRectMake(80, 380, 250, 50)];
     [self.view addSubview:_classTextField];
-    _classTextField.placeholder = @"请输入学生班级";
+    _classTextField.placeholder = @"请输入案件发生地";
     _classTextField.layer.masksToBounds = YES;
     _classTextField.layer.borderWidth = 2;
     _classTextField.layer.cornerRadius = 5;
@@ -68,8 +55,6 @@
     _classTextField.textColor = [UIColor whiteColor];
     _classTextField.backgroundColor = [UIColor clearColor];
     _classTextField.layer.borderColor = [UIColor whiteColor].CGColor;
-    _classTextField.leftViewMode = UITextFieldViewModeAlways;
-    _classTextField.leftView = classImageView;
     
     UIButton *change = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [self.view addSubview:change];

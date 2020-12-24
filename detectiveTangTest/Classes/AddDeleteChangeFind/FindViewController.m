@@ -23,9 +23,6 @@
     backImageView.frame = self.view.bounds;
     [self.view insertSubview:backImageView atIndex:0];
     
-    UIImage *nameImage = [UIImage imageNamed:@"姓名.png"];
-    UIImageView *nameImageView = [[UIImageView alloc] initWithImage:nameImage];
-    nameImageView.frame = CGRectMake(3, 3, 40, 40);
     _nameTextField = [[UITextField alloc] init];
     _nameTextField.layer.masksToBounds = YES;
     _nameTextField.layer.cornerRadius = 5;
@@ -36,13 +33,8 @@
     _nameTextField.backgroundColor = [UIColor clearColor];
     _nameTextField.frame = CGRectMake(80, 565, 250, 50);
     _nameTextField.placeholder = @"请输入案件ID";
-    _nameTextField.leftViewMode = UITextFieldViewModeAlways;
-    _nameTextField.leftView = nameImageView;
     [self.view addSubview:_nameTextField];
     
-    UIImage *ageImage = [UIImage imageNamed:@"年龄.png"];
-    UIImageView *ageImageView = [[UIImageView alloc] initWithImage:ageImage];
-    ageImageView.frame = CGRectMake(3, 3, 40, 40);
     _ageTextField = [[UITextField alloc] initWithFrame:CGRectMake(80, 630, 250, 50)];
     [self.view addSubview:_ageTextField];
     _ageTextField.placeholder = @"请输入案件两者关系";
@@ -53,12 +45,7 @@
     _ageTextField.textColor = [UIColor whiteColor];
     _ageTextField.backgroundColor = [UIColor clearColor];
     _ageTextField.layer.borderColor = [UIColor whiteColor].CGColor;
-    _ageTextField.leftViewMode = UITextFieldViewModeAlways;
-    _ageTextField.leftView = ageImageView;
     
-    UIImage *classImage = [UIImage imageNamed:@"房子.png"];
-    UIImageView *classImageView = [[UIImageView alloc] initWithImage:classImage];
-    classImageView.frame = CGRectMake(3, 3, 40, 40);
     _classTextField = [[UITextField alloc] initWithFrame:CGRectMake(80, 700, 250, 50)];
     [self.view addSubview:_classTextField];
     _classTextField.placeholder = @"请输入案件发生地";
@@ -69,8 +56,6 @@
     _classTextField.textColor = [UIColor whiteColor];
     _classTextField.backgroundColor = [UIColor clearColor];
     _classTextField.layer.borderColor = [UIColor whiteColor].CGColor;
-    _classTextField.leftViewMode = UITextFieldViewModeAlways;
-    _classTextField.leftView = classImageView;
     
     UIButton *find = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [self.view addSubview:find];
@@ -122,7 +107,7 @@
             }
         }
         if(find == NO) {
-            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示"   message:@"没找到此人，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示"   message:@"没找到此案件，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *sure1 = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleDefault handler:nil];
             [alert1 addAction:sure1];
             [self presentViewController:alert1 animated:NO completion:nil];
@@ -139,7 +124,7 @@
             }
         }
         if(find == NO) {
-            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示" message:@"没找到此人，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示" message:@"没找到此案件，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *sure1 = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleDefault handler:nil];
             [alert1 addAction:sure1];
             [self presentViewController:alert1 animated:NO completion:nil];
@@ -156,7 +141,7 @@
             }
         }
         if(find == NO) {
-            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示" message:@"没找到此人，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示" message:@"没找到此案件，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *sure1 = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleDefault handler:nil];
             [alert1 addAction:sure1];
             [self presentViewController:alert1 animated:NO completion:nil];
@@ -172,7 +157,7 @@
             }
         }
         if(find == NO) {
-            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示"   message:@"没找到此人，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示"   message:@"没找到此案件，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *sure1 = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleDefault handler:nil];
             [alert1 addAction:sure1];
             [self presentViewController:alert1 animated:NO completion:nil];
@@ -188,7 +173,7 @@
             }
         }
         if(find == NO) {
-            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示"   message:@"没找到此人，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示"   message:@"没找到此案件，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *sure1 = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleDefault handler:nil];
             [alert1 addAction:sure1];
             [self presentViewController:alert1 animated:NO completion:nil];
@@ -204,7 +189,7 @@
             }
         }
         if(find == NO) {
-            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示"   message:@"没找到此人，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示"   message:@"没找到此案件，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *sure1 = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleDefault handler:nil];
             [alert1 addAction:sure1];
             [self presentViewController:alert1 animated:NO completion:nil];
@@ -220,7 +205,7 @@
             }
         }
         if(find == NO) {
-            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示"   message:@"没找到此人，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertController *alert1 = [UIAlertController alertControllerWithTitle:@"提示"   message:@"没找到此案件，请确认是否输入正确" preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *sure1 = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleDefault handler:nil];
             [alert1 addAction:sure1];
             [self presentViewController:alert1 animated:NO completion:nil];

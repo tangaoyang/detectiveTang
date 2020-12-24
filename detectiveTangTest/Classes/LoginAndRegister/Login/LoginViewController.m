@@ -7,10 +7,13 @@
 
 #import "LoginViewController.h"
 #import "RegisterViewController.h"
+#import "SortViewController.h"
 #import "MainViewController.h"
 #import "DTLoginManager.h"
+#import "SortRelationshipModel.h"
 #import "BaseManager.h"
 #import "FindModel.h"
+#import "Crime.h"
 
 @interface LoginViewController ()
 <UITextFieldDelegate, RegisterViewControllerDelegate>{
@@ -126,13 +129,26 @@
     int i ;
     for(i = 0; i < userArr.count; i++) {
         if([_userTextField.text isEqualToString:userArr[i]] && [_passTextField.text isEqualToString:passArr[i]]) {
+            
             MainViewController *firstRoot = [[MainViewController alloc] init];
             self.view.window.rootViewController = firstRoot;
-            [[BaseManager sharedManager] getCrimeMessage:^(FindModel * _Nonnull findModel) {
-                for (Crime *crime in findModel.crimeArray) {
+            [[BaseManager sharedManager] getCrimeMessage:^(FindModel *findModel) {
+                firstRoot.crimeArray = [[NSMutableArray alloc] init];
+                firstRoot.ageArray = [[NSMutableArray alloc] init];
+                firstRoot.nameArray = [[NSMutableArray alloc] init];
+                firstRoot.classArray = [[NSMutableArray alloc] init];
+                NSLog(@"%@", findModel.crimeArray);
+                for (int i = 0; i < 99; i++) {
+                    Crime *crime = [[Crime alloc] init];
+                    ACrimeModel *crimeModel = findModel.crimeArray[i];
+                    crime.recordID = crimeModel.recordID;
+                    [firstRoot.nameArray addObject:crimeModel.recordID];
+                    crime.city = crimeModel.city;
+                    [firstRoot.ageArray addObject:crimeModel.city];
+                    crime.relationship = crimeModel.relationship;
+                    [firstRoot.classArray addObject:crimeModel.relationship];
                     [firstRoot.crimeArray addObject:crime];
                 }
-//                firstRoot.myModel = findModel.crimeArray;
                 [firstRoot.tableView reloadData];
             } error:^(NSError * _Nonnull error) {
                 NSLog(@"getCrimeMessage error == %@", error);

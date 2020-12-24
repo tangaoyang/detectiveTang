@@ -4,6 +4,7 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap \
   /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/LoginAndRegister/RegisterViewController.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/SortRelationship/SortViewController.h \
   /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/Main/MainViewController.h \
   /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/AddDeleteChangeFind/AddViewController.h \
   /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/AddDeleteChangeFind/DeleteViewController.h \
@@ -11,9 +12,11 @@ dependencies: \
   /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/AddDeleteChangeFind/ChangeSonViewController.h \
   /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/AddDeleteChangeFind/FindViewController.h \
   /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/HTTP/Manager/LoginAndRegister/DTLoginManager.h \
-  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/HTTP/Manager/QueryDeleteChangeAdd/BaseManager.h \
-  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/AddDeleteChangeFind/FindModel.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/SortRelationship/SortRelationshipModel.h \
   /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONModel.h \
   /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONModelError.h \
   /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONValueTransformer.h \
-  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONKeyMapper.h
+  /Users/tangaoyang/Documents/detectiveTangTest/Pods/Headers/Public/JSONModel/JSONKeyMapper.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/HTTP/Manager/QueryDeleteChangeAdd/BaseManager.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Classes/AddDeleteChangeFind/FindModel.h \
+  /Users/tangaoyang/Documents/detectiveTangTest/detectiveTangTest/Base/Crime/Crime.h
